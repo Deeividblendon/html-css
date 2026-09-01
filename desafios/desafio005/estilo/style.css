@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: darkgray;
+}
+
+/* ESTILOS DO CABEÇALHO */
+
+header {
+  background-color: black;
+  color: white;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+header h1 {
+  font-variant: small-caps;
+}
+
+/* ESTILOS DE TODOS OS LINKS */
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ESTILOS DAS SESSÕES */
+
+section {
+  padding: 10vh 30px;
+  line-height: 2em;
+}
+
+.normal {
+  background-color: white;
+  color: black;
+}
+
+.imagem {
+  background-color: #333;
+  color: white;
+}
+
+.imagem p {
+  width: 400px;
+  background-color: #00000041;
+}
+
+/* ESTILOS DO RODAPÉ */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
