@@ -1,3 +1,7 @@
 @charset "UTF-8";
 
 /* APARELHO NO MODO PAISAGEM */
+
+body {
+  background: url(../imagens/cev-landscape.jpg) left bottom / cover no-repeat;
+}
