@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font: bold 1.5em Arial;
+  color: blue;
+}
+
+div.container {
+  display: grid;
+  grid-template: 2fr 1fr 4fr 1fr / 1fr 2fr 1fr;
+  height: 50vh;
+  text-align: center;
+  background-color: rgba(255, 255, 0, 0.8);
+}
+
+header#topo {
+  grid-area: 1 / 1 / 2 / -1;
+  align-content: center;
+}
+
+nav#menu {
+  grid-area: 2 / 1 / 3 / -1;
+  align-content: center;
+}
+
+main#principal {
+  grid-area: 3 / 1 / 4 / -2;
+  align-content: center;
+}
+
+aside#secundario {
+  grid-area: 3 / 3 / 4 / -1;
+  align-content: center;
+}
+
+footer#rodape {
+  grid-area: 4 / 1 / -1 / -1;
+  align-content: center;
+}
